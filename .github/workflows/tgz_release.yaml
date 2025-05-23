@@ -16,6 +16,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
       - run: npm run build
+      - run: npm pack
       - name: Upload npm package to GitHub Release
         uses: softprops/action-gh-release@v2
         with:
