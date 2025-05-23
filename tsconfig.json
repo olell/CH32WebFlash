@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2024",
+    "module": "ESNext",
+    "declaration": true,
+    "declarationDir": "dist",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "strict": true,
+  },
+  "include": ["src"]
+}

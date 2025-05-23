@@ -1,0 +1,20 @@
+{
+  "name": "ch32webflash",
+  "version": "0.0.1",
+  "main": "dist/ch32webflash.umd.js",
+  "module": "dist/ch32webflash.esm.js",
+  "types": "dist/ch32webflash.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@types/w3c-web-hid": "^1.0.6",
+    "rollup": "^4.41.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  }
+}
